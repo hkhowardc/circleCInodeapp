@@ -3,7 +3,7 @@ jobs:
   build: 
     docker: 
       - image: cimg/node:14.10.1
-    step:
+    steps:
       - checkout
       - run: 
           command: npm install
